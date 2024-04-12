@@ -16,8 +16,8 @@
     width: 100%;
     max-width: 540px;
     background: white;
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
+    margin: 70px auto 20px;
+    padding: 40px 30px 30px;
     border-radius: 10px;
 }
 
@@ -110,4 +110,25 @@ ul li span {
 
 ul li span:hover {
     background: #edeeed;
+}
+
+.footer {
+    height: 40px;
+    background: #edeef0;
+    border-radius: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer i {
+    color: #ff5945;
+    font-size: 25px;
+}
+
+.footer div p {
+    color: #002765;
+    font-size: 22px;
+    font-weight: 500;
 }
